@@ -251,7 +251,7 @@ GMOD_MODULE_OPEN() {
 				LUA->Call(1, 0);
 			LUA->Pop();
 
-			return 0;
+			return 1;
 		}
 	}
 
